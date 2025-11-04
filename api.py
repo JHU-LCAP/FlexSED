@@ -7,7 +7,7 @@ from transformers import AutoTokenizer, ClapTextModelWithProjection
 from src.models.transformer import Dasheng_Encoder
 from src.models.sed_decoder import Decoder, TSED_Wrapper
 from src.utils import load_yaml_with_includes
-
+from tqdm import tqdm
 
 class FlexSED:
     def __init__(
@@ -43,18 +43,22 @@ class FlexSED:
         self.clap.eval()
         self.tokenizer = AutoTokenizer.from_pretrained("laion/clap-htsat-unfused")
 
+    def split_audio_fixed(self, audio, sr, chunk_duration=10.0):
+        samples_per_chunk = int(sr * chunk_duration)
+        total_len = len(audio)
+
+        chunks = []
+        for start in range(0, total_len, samples_per_chunk):
+            end = min(start + samples_per_chunk, total_len)
+            chunks.append(audio[start:end])
+        return chunks
+
     def run_inference(self, audio_path, events, norm_audio=True):
         """
         Run inference on audio for given events.
         """
-        audio, sr = librosa.load(audio_path, sr=16000)
-        audio = torch.tensor([audio]).to(self.device)
 
-        if norm_audio:
-            eps = 1e-9
-            max_val = torch.max(torch.abs(audio))
-            audio = audio / (max_val + eps)
-
+        # Get CLAP embeddings for each event
         clap_embeds = []
         with torch.no_grad():
             for event in events:
@@ -65,9 +69,27 @@ class FlexSED:
                 clap_embeds.append(text_embeds)
 
             query = torch.cat(clap_embeds, dim=1).to(self.device)
-            mel = self.model.forward_to_spec(audio)
+
+        audio, sr = librosa.load(audio_path, sr=16000)
+        # Chunk audio into 10s segments
+        audio_chunks = self.split_audio_fixed(audio, sr, 10)
+        # Run inference on each chunk
+        preds_list = []
+        for chunk in tqdm(audio_chunks):
+            chunk = torch.tensor([chunk]).to(self.device)
+
+            if norm_audio:
+                eps = 1e-9
+                max_val = torch.max(torch.abs(chunk))
+                chunk = chunk / (max_val + eps)
+
+            mel = self.model.forward_to_spec(chunk)
             preds = self.model(mel, query)
             preds = torch.sigmoid(preds).cpu()
+            preds_list.append(preds)
+
+        # Concatenate predictions
+        preds = torch.cat(preds_list, dim=2)
 
         return preds  # shape: [num_events, 1, T]
 
@@ -75,7 +97,7 @@ class FlexSED:
     @staticmethod
     def plot_and_save_multi(preds, events, sr=25, out_dir="./plots", fname="all_events"):
         os.makedirs(out_dir, exist_ok=True)
-        preds_np = preds.squeeze(1).numpy()  # [num_events, T]
+        preds_np = preds.squeeze(1).detach().numpy()  # [num_events, T]
         T = preds_np.shape[1]
 
         plt.figure(figsize=(12, len(events) * 0.6 + 2))
