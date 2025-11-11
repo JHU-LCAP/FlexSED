@@ -47,7 +47,7 @@ flexsed.to_multi_plot(preds, events, fname="example")
 
 1. **Download** the AudioSet-Strong subset. The dataset is available from both [WavCaps](https://huggingface.co/datasets/cvssp/WavCaps/tree/main/Zip_files/AudioSet_SL) and [HF-AS-Strong](https://huggingface.co/datasets/enyoukai/AudioSet-Strong). Thanks to the contributors for providing these resources.
 
-2. **Prepare metadata** following the preprocessing steps. Feel free to check processed [metadata](https://huggingface.co/Higobeatz/FlexSED/tree/main/meta_data).
+2. **Prepare metadata** following the preprocessing steps. Feel free to check [processed metadata](https://huggingface.co/Higobeatz/FlexSED/tree/main/meta_data).
 
    (If you wish to create a validation split, remove a subset of samples from the training metadata and format them the same as the test metadata. Recommended: ~2000 samples across ~50 sound classes.)
 
