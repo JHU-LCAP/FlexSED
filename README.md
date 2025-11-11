@@ -45,8 +45,23 @@ flexsed.to_multi_plot(preds, events, fname="example")
 
 ## Training
 
-WIP
+1. **Download** the AudioSet-Strong subset.  
+   The archive is available under [WavCaps](https://huggingface.co/datasets/cvssp/WavCaps/tree/main/Zip_files/AudioSet_SL)
 
+2. **Prepare metadata** following the preprocessing steps.  
+   (Feel free to check processed [metadata](https://huggingface.co/Higobeatz/FlexSED/tree/main/meta_data).)
+   (If you wish to create a validation split, remove a subset of samples from the training metadata and format them the same as the test metadata. Recommended: ~2000 samples across ~50 sound classes.)
+
+3. **Update file paths** for both metadata and audio in `src/configs`.
+
+4. **Extract CLAP embeddings**
+   ```bash
+   python src/prepare_clap.py
+   ```
+6. **Run training:**
+   ```bash
+   python src/train.py
+   ```
 
 ## Reference
 

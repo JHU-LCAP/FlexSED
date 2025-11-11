@@ -1,0 +1,457 @@
+label,id
+"Accelerating, revving, vroom",0
+Air brake,1
+Air conditioning,2
+"Air horn, truck horn",3
+Aircraft,4
+Aircraft engine,5
+Alarm,6
+Alarm clock,7
+Alert,8
+Ambulance (siren),9
+Animal,10
+Applause,11
+Arrow,12
+Artillery fire,13
+Audio logo,14
+Babbling,15
+"Baby cry, infant cry",16
+Baby laughter,17
+Background noise,18
+Bang,19
+Bark,20
+Basketball bounce,21
+Bathroom sounds,22
+Bathtub (filling or washing),23
+Battle cry,24
+"Bee, wasp, etc.",25
+"Beep, bleep",26
+Bell,27
+Bellow,28
+Belly laugh,29
+Bicycle bell,30
+"Bicycle, tricycle",31
+Bird,32
+"Bird flight, flapping wings",33
+"Bird vocalization, bird call, bird song",34
+Biting,35
+Bleat,36
+"Blender, food processor",37
+"Boat, Water vehicle",38
+Boiling,39
+Boing,40
+Booing,41
+Boom,42
+Bouncing,43
+Bow-wow,44
+Breaking,45
+Breathing,46
+Brief tone,47
+"Burping, eructation",48
+"Burst, pop",49
+Bus,50
+Busy signal,51
+Buzz,52
+Buzzer,53
+Cacophony,54
+Camera,55
+"Canidae, wild dogs, wolves",56
+Cap gun,57
+Car,58
+Car alarm,59
+Car passing by,60
+"Carbon monoxide detector, CO detector",61
+Cart,62
+Cash register,63
+Cat,64
+Caterwaul,65
+"Cattle, bovinae",66
+Caw,67
+"Cellphone buzz, vibrating alert",68
+Chain,69
+Chainsaw,70
+Change ringing (campanology),71
+"Channel, environment and background",72
+Chant,73
+Cheering,74
+"Chewing, mastication",75
+"Chicken, rooster",76
+Child singing,77
+"Child speech, kid speaking",78
+Children playing,79
+Children shouting,80
+Chime,81
+Chipmunk,82
+Chirp tone,83
+"Chirp, tweet",84
+Choir,85
+Chop,86
+Chopping (food),87
+Chorus effect,88
+"Chuckle, chortle",89
+Church bell,90
+Civil defense siren,91
+Clang,92
+Clapping,93
+Clatter,94
+Clickety-clack,95
+Clicking,96
+Clip-clop,97
+Clock,98
+Cluck,99
+Clunk,100
+Coin (dropping),101
+Computer keyboard,102
+Conversation,103
+Coo,104
+Cough,105
+Cowbell,106
+Crack,107
+Crackle,108
+Creak,109
+Cricket,110
+Croak,111
+Crockery breaking and smashing,112
+Crow,113
+Crowd,114
+"Crowing, cock-a-doodle-doo",115
+"Crumpling, crinkling",116
+Crunch,117
+Crushing,118
+"Crying, sobbing",119
+Cupboard open or close,120
+"Cutlery, silverware",121
+Deformable shell,122
+"Dental drill, dentist's drill",123
+Dial tone,124
+Digestive,125
+Ding,126
+Ding-dong,127
+"Dishes, pots, and pans",128
+Distortion,129
+Dog,130
+"Domestic animals, pets",131
+"Dong, bong",132
+"Donkey, ass",133
+Door,134
+Doorbell,135
+Drawer open or close,136
+Drill,137
+Drip,138
+Duck call (hunting tool),139
+"Ducks, geese, waterfowl",140
+Echo,141
+Effects unit,142
+"Electric rotor drone, quadcopter",143
+"Electric shaver, electric razor",144
+Electric toothbrush,145
+Electronic tuner,146
+Emergency vehicle,147
+Engine,148
+Engine knocking,149
+Engine starting,150
+Environmental noise,151
+Error signal,152
+Eruption,153
+Explosion,154
+Fart,155
+Female singing,156
+"Female speech, woman speaking",157
+Filing (rasp),158
+Fill (with liquid),159
+Finger snapping,160
+Fire,161
+Fire alarm,162
+"Fire engine, fire truck (siren)",163
+Firecracker,164
+Fireworks,165
+"Fixed-wing aircraft, airplane",166
+Fizz,167
+Flap,168
+"Fly, housefly",169
+Foghorn,170
+Fowl,171
+Frog,172
+Frying (food),173
+Fusillade,174
+Gargling,175
+Gasp,176
+Gears,177
+Generic impact sounds,178
+Giggle,179
+Glass,180
+"Glass chink, clink",181
+Glass shatter,182
+Goat,183
+Gobble,184
+Grind,185
+Groan,186
+Growling,187
+Grunt,188
+"Gull, seagull",189
+"Gunshot, gunfire",190
+"Gurgling, bubbling",191
+Gush,192
+Hair dryer,193
+Hammer,194
+Hands,195
+Heart murmur,196
+"Heart sounds, heartbeat",197
+Heavy engine (low frequency),198
+Helicopter,199
+Hiccup,200
+Hiss,201
+Honk,202
+Hoot,203
+Horse,204
+Howl,205
+Howl (wind),206
+"Hubbub, speech noise, speech babble",207
+Hum,208
+Human group actions,209
+Human locomotion,210
+Human sounds,211
+Human voice,212
+Humming,213
+"Ice cream truck, ice cream van",214
+Idling,215
+Insect,216
+"Inside, large room or hall",217
+"Inside, public space",218
+"Inside, small room",219
+Jackhammer,220
+Jet engine,221
+Jingle bell,222
+"Jingle, tinkle",223
+Kettle whistle,224
+Keypress tone,225
+Keys jangling,226
+Kitchen and dining room sounds,227
+Knife,228
+Knock,229
+Laughter,230
+Lawn mower,231
+Light engine (high frequency),232
+Liquid,233
+"Livestock, farm animals, working animals",234
+Lock,235
+Machine gun,236
+Mains hum,237
+Male singing,238
+"Male speech, man speaking",239
+Mantra,240
+Mechanical bell,241
+Mechanical fan,242
+Mechanisms,243
+Medium engine (mid frequency),244
+Meow,245
+Microphone,246
+Microwave oven,247
+Moo,248
+Mosquito,249
+Motor vehicle (road),250
+"Motorboat, speedboat",251
+Motorcycle,252
+Mouse,253
+Music,254
+"Narration, monologue",255
+"Neigh, whinny",256
+Noise,257
+Non-motorized land vehicle,258
+Ocean,259
+Oink,260
+Other sourceless,261
+"Outside, rural or natural",262
+"Outside, urban or manmade",263
+Owl,264
+"Packing tape, duct tape",265
+Pant,266
+Pant (dog),267
+Paper rustling,268
+Patter,269
+Pig,270
+"Pigeon, dove",271
+Ping,272
+Plop,273
+Police car (siren),274
+Pour,275
+"Power saw, circular saw, table saw",276
+Power tool,277
+"Power windows, electric windows",278
+Printer,279
+"Propeller, airscrew",280
+Puff,281
+Pulleys,282
+Pulse,283
+Pump (liquid),284
+Purr,285
+Quack,286
+"Race car, auto racing",287
+Radio,288
+Rail transport,289
+"Railroad car, train wagon",290
+Rain,291
+Rain on surface,292
+Raindrop,293
+Rapping,294
+"Ratchet, pawl",295
+Rattle,296
+Refrigerator,297
+Respiratory sounds,298
+Reverberation,299
+Reversing beeps,300
+"Ringing tone, ringback tone",301
+Ringtone,302
+Roar,303
+"Roaring cats (lions, tigers)",304
+"Rodents, rats, mice",305
+Roll,306
+"Rowboat, canoe, kayak",307
+Rub,308
+Rumble,309
+Run,310
+Rustle,311
+"Sailboat, sailing ship",312
+Sanding,313
+Sawing,314
+Scissors,315
+Scrape,316
+Scratch,317
+Screaming,318
+Screech,319
+Sewing machine,320
+Sheep,321
+Ship,322
+Shout,323
+Shower,324
+Shuffle,325
+Shuffling cards,326
+Sigh,327
+Silence,328
+Sine wave,329
+Singing,330
+Single-lens reflex camera,331
+Sink (filling or washing),332
+Siren,333
+Sizzle,334
+Skateboard,335
+Slam,336
+"Slap, smack",337
+Sliding door,338
+Slosh,339
+"Slurp, drinking straw",340
+"Smash, crash",341
+"Smoke detector, smoke alarm",342
+Snake,343
+Snap,344
+Sneeze,345
+Snicker,346
+Sniff,347
+Snoring,348
+Snort,349
+Snort (horse),350
+Sonar,351
+Sonic boom,352
+Sound effect,353
+Sound equipment,354
+Sound reproduction,355
+Source-ambiguous sounds,356
+Specific impact sounds,357
+Speech,358
+Speech synthesizer,359
+"Splash, splatter",360
+Splinter,361
+Spray,362
+Squawk,363
+Squeak,364
+Squeal,365
+Squish,366
+Stairs,367
+Static,368
+Steam,369
+Steam whistle,370
+Stir,371
+Stomach rumble,372
+"Stomp, stamp",373
+"Stream, river",374
+Studio recording,375
+"Subway, metro, underground",376
+Surface contact,377
+Sweeping,378
+Synthetic singing,379
+Tap,380
+Tap dance,381
+Tape hiss,382
+Tearing,383
+Telephone,384
+Telephone bell ringing,385
+"Telephone dialing, DTMF",386
+Television,387
+Throat clearing,388
+Throbbing,389
+"Thump, thud",390
+Thunder,391
+Thunderstorm,392
+Thunk,393
+Tick,394
+Tick-tock,395
+"Tire squeal, skidding",396
+Toilet flush,397
+Tools,398
+Toothbrush,399
+"Traffic noise, roadway noise",400
+Train,401
+Train horn,402
+Train wheels squealing,403
+Train whistle,404
+"Trickle, dribble",405
+Truck,406
+Tuning fork,407
+Turkey,408
+Typewriter,409
+Typing,410
+Unknown sound,411
+Unmodified field recording,412
+Vacuum cleaner,413
+Vehicle,414
+"Vehicle horn, car horn, honking, toot",415
+"Velcro, hook and loop fastener",416
+Vibration,417
+Video game sound,418
+"Wail, moan",419
+"Walk, footsteps",420
+Washing machine,421
+Water,422
+"Water tap, faucet",423
+Waterfall,424
+"Waves, surf",425
+"Whack, thwack",426
+Whale vocalization,427
+Wheeze,428
+Whimper,429
+Whimper (dog),430
+Whip,431
+Whir,432
+Whispering,433
+Whistle,434
+Whistling,435
+"White noise, pink noise",436
+Whoop,437
+"Whoosh, swoosh, swish",438
+Wild animals,439
+Wildfire,440
+Wind,441
+Wind chime,442
+Wind noise (microphone),443
+"Windscreen wiper, windshield wiper",444
+Wobble,445
+Wolf-whistling,446
+Wood,447
+Writing,448
+Yak,449
+Yawn,450
+Yell,451
+Yip,452
+Yodeling,453
+Zing,454
+Zipper (clothing),455
