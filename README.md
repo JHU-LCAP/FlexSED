@@ -45,7 +45,7 @@ flexsed.to_multi_plot(preds, events, fname="example")
 
 ## Training
 
-1. **Download** the AudioSet-Strong subset. The archive is available under [WavCaps](https://huggingface.co/datasets/cvssp/WavCaps/tree/main/Zip_files/AudioSet_SL) and [HF-AS-Strong](https://huggingface.co/datasets/enyoukai/AudioSet-Strong)
+1. **Download** the AudioSet-Strong subset. The dataset is shared by communities: [WavCaps](https://huggingface.co/datasets/cvssp/WavCaps/tree/main/Zip_files/AudioSet_SL) and [HF-AS-Strong](https://huggingface.co/datasets/enyoukai/AudioSet-Strong).
 
 2. **Prepare metadata** following the preprocessing steps. Feel free to check processed [metadata](https://huggingface.co/Higobeatz/FlexSED/tree/main/meta_data).
 
